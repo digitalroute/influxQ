@@ -1,9 +1,14 @@
 # influxQ
-influxQ is a tool to query influxDB.
+influxQ is a tool to query influxDB written in python 3.
 
-## Install
-1. ```sudo curl -L https://github.com/digitalroute/influxQ/releases/download/v0.1/influxQ -o /usr/local/bin/influxQ```
-2. ```sudo chmod +x /usr/local/bin/influxQ```
+
+
+## Build and Install
+Note: As the prerequisite, make sure you have python3 installed.
+
+1. ```sudo pip3 install -r requirements.txt```
+2. ```pyinstaller -c --onefile influxQ.py```
+3. ```sudo cp dist/influxQ /usr/local/bin/influxQ```
 
 ### Disclaimer
 I have created this tool to make my own life easier since I have a need to explore and query different influxDB instances.

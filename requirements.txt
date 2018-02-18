@@ -1,1 +1,2 @@
 influxdb>=5.0.0
+pyinstaller>=3.3.1
