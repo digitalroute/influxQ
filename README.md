@@ -2,8 +2,8 @@
 influxQ is a tool to query influxDB.
 
 ## Install
-`sudo curl -L https://github.com/digitalroute/influxQ/releases/download/v0.1/influxQ -o /usr/local/bin/influxQ`
-`sudo chmod +x /usr/local/bin/influxQ`
+1. ```sudo curl -L https://github.com/digitalroute/influxQ/releases/download/v0.1/influxQ -o /usr/local/bin/influxQ```
+2. ```sudo chmod +x /usr/local/bin/influxQ```
 
 ### Disclaimer
 I have created this tool to make my own life easier since I have a need to explore and query different influxDB instances.
